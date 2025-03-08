@@ -531,7 +531,7 @@ physical_plan
 01)┌───────────────────────────┐
 02)│       ProjectionExec      │
 03)│    --------------------   │
-04)│   ProjectionExec: expr:   │
+04)│           expr:           │
 05)│   [int_col@0 as int_col,  │
 06)│       bigint_col@1 as     │
 07)│      bigint_col, CAST     │
@@ -560,7 +560,7 @@ physical_plan
 01)┌───────────────────────────┐
 02)│       ProjectionExec      │
 03)│    --------------------   │
-04)│   ProjectionExec: expr:   │
+04)│           expr:           │
 05)│   [int_col@0 as int_col,  │
 06)│       bigint_col@1 as     │
 07)│      bigint_col, CAST     │
@@ -589,7 +589,7 @@ physical_plan
 01)┌───────────────────────────┐
 02)│       ProjectionExec      │
 03)│    --------------------   │
-04)│   ProjectionExec: expr:   │
+04)│           expr:           │
 05)│   [int_col@0 as int_col,  │
 06)│       bigint_col@1 as     │
 07)│      bigint_col, CAST     │
@@ -617,7 +617,7 @@ physical_plan
 01)┌───────────────────────────┐
 02)│       ProjectionExec      │
 03)│    --------------------   │
-04)│   ProjectionExec: expr:   │
+04)│           expr:           │
 05)│   [int_col@1 as int_col,  │
 06)│       bigint_col@0 as     │
 07)│     bigint_col, int_col   │
@@ -646,7 +646,7 @@ physical_plan
 01)┌───────────────────────────┐
 02)│       ProjectionExec      │
 03)│    --------------------   │
-04)│   ProjectionExec: expr:   │
+04)│           expr:           │
 05)│   [int_col@0 as int_col,  │
 06)│       bigint_col@1 as     │
 07)│      bigint_col, CAST     │
